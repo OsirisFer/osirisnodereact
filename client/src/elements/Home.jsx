@@ -40,6 +40,11 @@ function Home() { // Componente  Home
         <br></br>
 
         <div className='d-flex justify-content-end'>
+                <Link className='btn btn-success' to='/tictactoe'>Go to Tic Tac Toe</Link>
+            </div>
+        <br></br>
+
+        <div className='d-flex justify-content-end'>
             <Link className='btn btn-success' to='/create'>Add Tasks</Link>
         </div>
         <table>

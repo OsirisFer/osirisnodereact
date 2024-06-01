@@ -6,6 +6,8 @@ import Create from "./elements/Create";
 import Edit from "./elements/Edit";
 import Read from "./elements/Read";
 import Examples from "./elements/Examples";
+import TicTacToe from "./elements/TicTacToe";
+
 function App() {
   return (
     <BrowserRouter>
@@ -15,6 +17,7 @@ function App() {
         <Route path="/edit/:id" element={<Edit />} />
         <Route path="/read/:id" element={<Read />} />
         <Route path="/examples" element={<Examples />} />
+        <Route path="/tictactoe" element={<TicTacToe />} />
       </Routes>
     </BrowserRouter>
   );
