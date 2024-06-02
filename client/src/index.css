@@ -11,11 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
 * {
   box-sizing: border-box;
 }
-
 
 h1 {
   margin-top: 0;
@@ -94,3 +92,4 @@ body {
 .game-info {
   margin-left: 20px;
 }
+
